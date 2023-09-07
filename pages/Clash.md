@@ -22,3 +22,10 @@ tags:: [[网络代理]]
 		  </plist>
 		  ```
 	- 3、编辑保存后，重启 clashx 即可。
+	- ---
+	- 更多资料：
+		- 1、[分享一个新的 clash 客户端](https://www.v2ex.com/t/838078)
+		- 2、[clash更新订阅时保留自己的规则](https://blog.hifool.cn/posts/f42b65b0/)
+		- 3、[ClashX自定义配置文件管理](https://web.archive.org/web/20220809052657/https://donnadie.top/manage-clashx-custom-config/)
+		- 4、[如何自定义流量规则 - Clashx Issue](https://github.com/yichengchen/clashX/discussions/636)
+-
