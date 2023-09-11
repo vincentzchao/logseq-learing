@@ -1,6 +1,6 @@
 alias:: GNU Package, GNU Packages
+tags:: GNU
 
-- tags:: GNU
 - ---
 - ==子目录==
 	- Archiving
@@ -16,3 +16,4 @@ alias:: GNU Package, GNU Packages
 	  id:: 6459049d-04b7-4cf4-817c-8eae369d4e9b
 	-
 	-
+-

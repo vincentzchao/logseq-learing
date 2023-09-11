@@ -1,8 +1,8 @@
 alias:: [[Elastic Stack]]
 ---
 
-- > 即 Elasticsearch, Kibana, Beats 和 Logstash 以及相关工具。
 - ==子目录==
+	- [[ELK Concept]]
 	- [[Elasticsearch]]
 	-
 - ---
@@ -13,4 +13,4 @@ alias:: [[Elastic Stack]]
 	- [软件与相关环境的兼容性详情](https://www.elastic.co/support/matrix#matrix_kubernetes)
 - ## 如何学习
 	- 看文档时，遇到不懂的词，可以到上面的 *ELK Glossarys* 中查找。
-	-
+- ---
