@@ -16,7 +16,7 @@ tags:: [[Docker]]
 		- 用户主要通过 Docker client 与 Docker 交互, Docker client 通过 Docker API 将用户的命令发送给 Docker daemon 执行。
 		- 一个 Docker client 可以与多个 Docker daemon 通信。
 	- ###  [Docker Engine](https://docs.docker.com/engine/)
-		- Docker Engine 提供 Docker 的核心功能，是一个命令行工具。
+		- Docker Engine 提供 Docker 的核心功能，提供了一些命令。
 	- ### [Docker Desktop](https://docs.docker.com/desktop/)
 		- Docker Desktop 属于 GUI。
 		- Docker Desktop 包含的组件：
