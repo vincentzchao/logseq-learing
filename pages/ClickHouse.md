@@ -15,5 +15,9 @@ tags:: [[RDBMS]]
 			  FROM system.settings
 			  WHERE name LIKE 'max_query_size%' OR name LIKE 'max_query_size%';
 			  ```
-			-
+	- ### 集群相关
+		- #### 查询集群信息
+			- ``` sql
+			  select * from system.clusters;
+			  ```
 -
