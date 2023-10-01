@@ -28,4 +28,12 @@ alias:: [[术语]]
 		- 即 普通消费者可以随时买到的、支付得起的、通用的硬件。
 		- 与之相对的是 **定制硬件** 。
 		- 参考: [What is Commodity Hardware?](https://www.techslang.com/definition/what-is-commodity-hardware/)
-		-
+- ## 惯用表达
+	- > 非专属于 CS ，但在 CS 中惯用的表达。
+	- ### battery of
+		- 表示一系列、一组、一套，同时暗含 **轰炸/攻击** 的意思。
+		- *battery of tests* 一系列测试(轰炸)
+		- > Battery comes from a Middle French word meaning bombardment or assault. This is most likely why the word is most often used with "battery of questions" or "battery of tests" to imply that one has been bombarded with many questions or tests. In addition, in modern English we still use battery in the context of "assault and battery." [And "to batter" means to "beat with successive blows."](https://www.merriam-webster.com/dictionary/batter) 
+		  ——参考: [Usage of the phrase "a battery of"](https://english.stackexchange.com/questions/410591/usage-of-the-phrase-a-battery-of)
+		- id:: 65193a61-681f-469d-b646-21c4f9933b6e
+-
