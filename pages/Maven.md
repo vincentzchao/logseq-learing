@@ -1,6 +1,6 @@
-alias:: #[[Apache Maven]]
+alias:: [[Apache Maven]]
+tags:: [[Build Tool]], [[Package Manager]]
 
-- tags:: Build Tool
 - ---
 - ==子目录==
 	- [[Maven POM]]

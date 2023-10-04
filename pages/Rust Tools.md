@@ -1,4 +1,5 @@
-alias:: Rust 工具, Rust Tool
+alias:: [[Rust 工具]], [[Rust Tool]]
+---
 
 - ==子目录==
 	- [[Rustup]]
