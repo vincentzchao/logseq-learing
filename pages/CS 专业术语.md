@@ -28,4 +28,8 @@ tags:: [[Glossary]]
 		- 即 普通消费者可以随时买到的、支付得起的、通用的硬件。
 		- 与之相对的是 **定制硬件** 。
 		- 参考: [What is Commodity Hardware?](https://www.techslang.com/definition/what-is-commodity-hardware/)
+- ## 形容词
+	- | 英文             | 中文         | 解释                  |
+	  | ---------------- | ------------ | --------------------- |
+	  | `case sensitive` | 大小写敏感的 | e.g. JavaScript is ~. |
 	-
