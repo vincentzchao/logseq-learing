@@ -7,3 +7,4 @@ tags:: #[[Unix-like Command]]
 	  ps -ef | grep xxxxx
 	  ```
 -
+-
