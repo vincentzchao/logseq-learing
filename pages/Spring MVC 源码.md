@@ -30,7 +30,7 @@ tags:: [[Spring MVC]], [[Source Code]]
 			  ```
 		- 我们进入该构造方法可以发现, 正是这个构造方法给 `bridgedMethod` 赋值了, 并且这个值和传入的 `method` 对象有关 .
 		  logseq.order-list-type:: number
-	- 那么我们现在的问题是, 这个 `method` 对象是怎么来的?
+	- 那么我们现在的问题是, 这个 `method` 对象是怎么来的 ?
 	  logseq.order-list-type:: number
 		- 阅读上一步中的代码可以发现 `Method method = resolver.resolveMethod(exception);` 
 		  logseq.order-list-type:: number
