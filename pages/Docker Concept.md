@@ -3,11 +3,12 @@ tags:: [[Docker]]
 
 - ## Docker architecture
 	- 参考: https://docs.docker.com/get-started/overview/
-	- Docker 是 client-server 架构的。
-	- Docker client 和 Docker daemon  可以在同一台机器，也可以在不同机器。
-	- Docker client 和 Docker daemon 之间使用 REST API 通信。
-	- Docker compose 属于另一种 Client ，它可以让你操作 **多个容器组成的集合** 。
-	- ![architecture.png](../assets/architecture_1692166161266_0.png)
+	- ### Overview
+		- Docker 是 client-server 架构的。
+		- Docker client 和 Docker daemon  可以在同一台机器，也可以在不同机器。
+		- Docker client 和 Docker daemon 之间使用 REST API 通信。
+		- Docker compose 属于另一种 Client ，它可以让你操作 **多个容器组成的集合** 。
+		- ![architecture.png](../assets/architecture_1692166161266_0.png)
 	- ### Docker daemon
 		- Docker daemon 即 **Docker 守护进程** ，简称 `dockerd` .
 		- Docker daemon 可以和其他 daemon 通信，一起管理 Docker services .
@@ -46,3 +47,7 @@ tags:: [[Docker]]
 		- Docker Hub 是 Docker 官方提供的公共 Docker registry
 		- Docker Hub 是 Docker 使用的默认 registry ，用户可以自定义 registry 地址。
 		-
+- ---
+- ## 参考
+	-
+-
