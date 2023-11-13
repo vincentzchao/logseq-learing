@@ -15,6 +15,7 @@ tags:: [[Glossary]]
 	  | `:`  | 冒号             | colon                                       |
 	  | `;`  | 分号             | semicolon                                   |
 	  | `,`  | 逗号             | comma                                       |
+	  | `.`  | 句点             |  period                                       |
 	  | `?`  | 问号             | question mark                                       |
 	  | `""` | 双引号           | double quotation marks / double quote marks |
 	  | `''` | 单引号           | single quotation marks / single quote marks |
