@@ -84,7 +84,7 @@ tags:: [[Contents]], [[Roadmap]]
 		- [[Docker]]
 		- [[Kubernetes]]
 - ## 计算机基础
-	- [[数据结构]]
+	- [[Algorithm]]
 	- [[计算机网络]]
 	- [[计算机组成原理]]
 	- [[操作系统]]
