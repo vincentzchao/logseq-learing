@@ -1,6 +1,6 @@
-tags:: #消息摘要
+tags:: [[消息摘要]]
+---
 
-- ---
 - ## 命令
 	- ```sh
 	  vincent@VincentdeMacBook-Pro  ~/Downloads  shasum --help                                                            ✔  1864  11:57:17
