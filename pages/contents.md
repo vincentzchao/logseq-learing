@@ -1,2 +1,2 @@
 -
-- {{renderer :tocgen2, [[网站收藏/算法相关]], calc(100vh - 135px)}}
+- {{renderer :tocgen2, [[css/concept]], calc(100vh - 135px)}}

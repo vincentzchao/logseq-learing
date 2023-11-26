@@ -20,6 +20,9 @@ tags:: [[Glossary]]
 	  | `""` | 双引号           | double quotation marks / double quote marks |
 	  | `''` | 单引号           | single quotation marks / single quote marks |
 	  | `&`  | and 符            | ampersand                                   |
+	  | `~`  | 波浪线           | tilde                                   |
+	  | `^`  |            | caret                                   |
+	  | `  |             | backtick                                   |
 	  | `\n` | 换行符           | line break                                  |
 - ## 运算符号
 	- | 符号         | 中文名称 | 英文名称       |
