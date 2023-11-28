@@ -1,10 +1,32 @@
 tags:: [[Front-End]]
+alias:: [[HyperText Markup Language]]
 ---
 
+- ==子目录==
+	- [[HTML/Concept]]
+	- [[HTML/head element]]
+	- [[HTML/Text]]
+	- [[HTML/Hyperlink]]
+	- [[HTML/Debugger]]
+	-
+- ---
+- ## 学习路线
+	- 按照 [MDN - Structuring the web with HTML](https://developer.mozilla.org/en-US/docs/Learn/HTML) 中的顺序学习。
+	  logseq.order-list-type:: number
+		- HTML 基础知识: [[HTML/Concept]]
+		  logseq.order-list-type:: number
+		- HTML head element 内容: [[HTML/head element]]
+		  logseq.order-list-type:: number
+		- HTML body element 内容:
+		  logseq.order-list-type:: number
+			- HTML 文本相关: [[HTML/Text]]
+			  logseq.order-list-type:: number
+			- HTML 超链接: [[HTML/Hyperlink]]
+			  logseq.order-list-type:: number
+			- HTML 网页结构: 
+			  logseq.order-list-type:: number
+			- HTML 调试: [[HTML/Debugger]]
+			  logseq.order-list-type:: number
+- ## 学习进度
+	-
 -
-- ## 渲染的顺序
-	- 参考: [How the web works](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/How_the_Web_works#order_in_which_component_files_are_parsed)
-	- 1. 获取 `html` 文件，并解析其中的 `<link>` 和 `<script>` 标签。
-	  2. 发出请求获取 `css` 和 `javascript` 文件，解析  `css` 和 `javascript` 文件。
-	  3. 在内存中生成 `DOM` 和 `CSSOM` ，然后编译并执行 `JavaScript` 。
-	  4. 根据上一步的三个元素，渲染画面。

@@ -1,4 +1,4 @@
-tags:: Shiro, History
+tags:: Shiro
 
 -
 - # Shiro History
