@@ -1,2 +1,3 @@
 -
-- {{renderer :tocgen2, [[html/debugger]], calc(100vh - 135px)}}
+-
+- {{renderer :tocgen2, [[html/web page structure]], calc(100vh - 135px)}}

@@ -3,11 +3,6 @@ alias:: [[HyperText Markup Language]]
 ---
 
 - ==子目录==
-	- [[HTML/Concept]]
-	- [[HTML/head element]]
-	- [[HTML/Text]]
-	- [[HTML/Hyperlink]]
-	- [[HTML/Debugger]]
 	-
 - ---
 - ## 学习路线
@@ -23,7 +18,7 @@ alias:: [[HyperText Markup Language]]
 			  logseq.order-list-type:: number
 			- HTML 超链接: [[HTML/Hyperlink]]
 			  logseq.order-list-type:: number
-			- HTML 网页结构: 
+			- HTML 网页结构: [[HTML/Web Page Structure]]
 			  logseq.order-list-type:: number
 			- HTML 调试: [[HTML/Debugger]]
 			  logseq.order-list-type:: number
