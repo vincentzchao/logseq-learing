@@ -22,6 +22,9 @@ alias:: [[HyperText Markup Language]]
 			  logseq.order-list-type:: number
 			- HTML 调试: [[HTML/Debugger]]
 			  logseq.order-list-type:: number
+			- HTML 多媒体: [[HTML/Multimedia]]
+			  logseq.order-list-type:: number
+			- logseq.order-list-type:: number
 - ## 学习进度
+	- 2023-12-03 : [Images in HTML#Alternative text](https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Images_in_HTML#alternative_text)
 	-
--

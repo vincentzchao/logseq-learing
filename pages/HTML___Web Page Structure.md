@@ -224,41 +224,28 @@ tags:: [[HTML]]
 	- 这个过程被叫做 [Information architecture](https://developer.mozilla.org/en-US/docs/Glossary/Information_architecture) ，在设计一个大型网站时，实际上我们大部分时间都花在这个过程。
 	- ### 1、列出公共元素
 		- 列出大部分页面需要的公共元素，如 `<header>` 、 `<footer>` 等。
-		- 图片地址：https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Document_and_website_structure/common-features.png
-		  
-		  ![the common features of the travel site to go on every page: title and logo, contact, copyright, terms and conditions, language chooser, accessibility policy](网页结构/common-features.png)
-- ### 2、画草图
-- 画草图，大致确定你的页面有哪些块。
-  
-  图片地址：https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Document_and_website_structure/site-structure.png
-  
-  ![A simple diagram of a sample site structure, with a header, main content area, two optional sidebars, and footer](网页结构/site-structure.png)
-- ### 3、内容列表
-- 头脑风暴，思考你的整个网站都具体需要什么内容（不分类，想到就列出），写一个长清单。
-  
-  图片地址：https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Document_and_website_structure/feature-list.png
-  
-  ![A long list of all the features that we could put on our travel site, from searching, to special offers and country-specific info](网页结构/feature-list.png)
-- ### 4、内容分组
-- 将上一步得到的内容进行 **分组** ，分到不同的页面中。
-- 这个过程与这个技术很相似： [Card sorting](https://developer.mozilla.org/en-US/docs/Glossary/Card_sorting) 
-  
-  图片地址：https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Document_and_website_structure/card-sorting.png
-  
-  ![The items that should appear on a holiday site sorted into 5 categories: Search, Specials, Country-specific info, Search results, and Buy things](网页结构/card-sorting.png)
-- ### 5、网站地图
-- 画一张粗略的网站地图，各个页面使用圆圈圈住，使用线条连接不同页面，以呈现网站主要的工作流。
-- 主页在中间，他可以连接大部分其他页面。
-- 大部分其他页面，应该可以从主页直接跳转（虽然有例外）。
-  
-  图片地址：https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Document_and_website_structure/site-map.png
-  
-  ![A map of the site showing the homepage, country page, search results, specials page, checkout, and buy page](网页结构/site-map.png)
-  
-  
-  
-  ---
+		- ![common-features.png](../assets/common-features_1701570040801_0.png)
+		- [图片来源](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Document_and_website_structure/common-features.png)
+	- ### 2、画草图
+		- 画草图，大致确定你的页面有哪些块。
+		- ![site-structure.png](../assets/site-structure_1701570197692_0.png)
+		- [图片来源](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Document_and_website_structure/site-structure.png)
+	- ### 3、内容列表
+		- 头脑风暴，思考你的整个网站都具体需要什么内容（不分类，想到就列出），写一个长清单。
+		- ![feature-list.png](../assets/feature-list_1701570257519_0.png)
+		- [图片地址](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Document_and_website_structure/feature-list.png)
+	- ### 4、内容分组
+		- 将上一步得到的内容进行 **分组** ，分到不同的页面中。
+		- 这个过程与这个技术很相似： [Card sorting](https://developer.mozilla.org/en-US/docs/Glossary/Card_sorting)
+		- ![card-sorting.png](../assets/card-sorting_1701570403197_0.png)
+		- [图片来源](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Document_and_website_structure/card-sorting.png)
+	- ### 5、网站地图
+		- 画一张粗略的网站地图，各个页面使用圆圈圈住，使用线条连接不同页面，以呈现网站主要的工作流。
+		- 主页在中间，他可以连接大部分其他页面。
+		- 大部分其他页面，应该可以从主页直接跳转（虽然有例外）。
+		- ![site-map.png](../assets/site-map_1701571360790_0.png)
+		- [图片地址](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Document_and_website_structure/site-map.png)
+- ---
 - ## 参考
-  
-  1. MDN : [Document_and_website_structure](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Document_and_website_structure)
-  2.
+	- MDN : [Document_and_website_structure](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Document_and_website_structure)
+	  logseq.order-list-type:: number
