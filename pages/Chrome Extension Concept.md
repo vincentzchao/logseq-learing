@@ -5,7 +5,7 @@ tags:: [[Chrome Extension]]
 - ## Extension files
 	- ### 文件结构
 		- 图片来源: `https://wd.imgix.net/image/BhuKGJaIeLNPW9ehns59NfwqKxF2/Txq5CxeXjQz7i4wmP8zO.png?auto=format&w=439`
-		- ![image.png](../assets/image_1699013507049_0.png)
+		- ![image.png](../assets/image_1699013507049_0.png){:height 644, :width 434}
 	- ### 常用文件
 		- manifest
 		- service worker
@@ -20,7 +20,7 @@ tags:: [[Chrome Extension]]
 		- 可以调用所有 `Chrome Api` .
 		- 不能直接与网页内容交互 .
 	- ### content scripts
-		- 可以在网页中执行 Javasrcipt .
+		- 可以在网页中执行 Javascript .
 		- 可以读取和修改网页的 `DOM`.
 		- 可以直接调用部分 `Chrome Api`.
 		- 可以通过与 `service worker` 交互, 间接调用剩下的那部分 `Chrome Api` .

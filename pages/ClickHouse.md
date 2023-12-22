@@ -20,4 +20,10 @@ tags:: [[RDBMS]]
 			- ``` sql
 			  select * from system.clusters;
 			  ```
+	- ### TTL
+		- ```sql
+		  -- 移除 TTL
+		  ALTER TABLE table_name REMOVE TTL
+		  ALTER TABLE table_name on cluster 'cluster' REMOVE TTL
+		  ```
 -
