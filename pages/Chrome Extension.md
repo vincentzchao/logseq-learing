@@ -6,6 +6,9 @@ tags:: [[Browser Extension]], [[Chrome]]
 	- [[Chrome Extension Permisson]]
 	- 常见问题
 		- [[如何在 Chrome 扩展中使用 nodejs 模块]]
+		- [[如何跨域访问 localstorage]]
+		- [[如何给 iframe 注入 JS]]
+		-
 	-
 -
 - ## 官网资料
