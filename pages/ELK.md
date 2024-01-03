@@ -6,7 +6,7 @@ alias:: [[Elastic Stack]]
 	- [[Elasticsearch]]
 	- [[Logstash]]
 	- [[Kibana]]
-	-
+	- [[Beats]]
 	-
 - ---
 - ## 官方资料

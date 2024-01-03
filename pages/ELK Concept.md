@@ -21,7 +21,7 @@ tags:: [[ELK]]
 			- **Logstash** 可以配置输入、过滤、输出插件，动态地收集和格式化数据，并将数据传输给其他数据源。
 	- ### Store 存储
 		- #### Elasticsearch
-			- **Elasticsearch** 是 ELK 的核心，用于存储、搜索和分析数据。
+			- **Elasticsearch** 是 ELK 的核心，用于存储、索引、搜索和分析数据。
 	- ### Consume 消费
 		- #### Kibana
 			- **Kibana** 用于 **分析** 和 **可视化** **Elasticsearch** 中的数据。

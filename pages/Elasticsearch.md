@@ -3,6 +3,7 @@ tags:: [[ELK]], [[Search Engine]]
 
 - ==子目录==
 	- [[Elasticsearch Concept]]
+	- [[Elasticsearch 常见问题]]
 	-
 -
 - ---
