@@ -87,4 +87,4 @@ tags:: [[Logback]]
 			- 方式 3 则只有在需要打印日志时才需要消耗构造字符串的开销，但同时也会带来构造后面参数数组实例 `Object[] instance` 的开销。
 	- ### 内部原理
 		- **没看懂** [A peek under the hood](https://logback.qos.ch/manual/architecture.html#additivity)
-	-
+		-
