@@ -17,5 +17,11 @@ tags:: [[RDBMS]]
 		  -- 查询MySQL支持的最大SQL字符串大小，单位为 Byte
 		  select @@max_allowed_packet;
 		  ```
--
+	- ### 数据库参数
+		- ``` sql
+		  -- 查看全局的变量
+		  show global variables;
+		  -- 查看当前会话的变量
+		  show variables;
+		  ```
 -
