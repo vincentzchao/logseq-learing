@@ -24,4 +24,18 @@ tags:: [[RDBMS]]
 		  -- 查看当前会话的变量
 		  show variables;
 		  ```
--
+	- ### 进程相关
+		- ``` sql
+		  -- 统计各 host 的连接数量
+		  SELECT substring(Host, 1, LOCATE(":", Host) -1), count(1)
+		  FROM INFORMATION_SCHEMA.PROCESSLIST 
+		  group by substring(Host, 1, LOCATE(":", Host) -1)
+		  
+		  -- 拼接 kill 语句
+		  select concat("kill ", id, ";") 
+		  from INFORMATION_SCHEMA.PROCESSLIST 
+		  where substring(Host, 1, LOCATE(":", Host) -1) = "192.168.1.200"
+		  ```
+- ## 常见问题
+	- [mac忘记mysql密码怎么办](https://blog.csdn.net/weixin_43922901/article/details/109570089)
+	-
