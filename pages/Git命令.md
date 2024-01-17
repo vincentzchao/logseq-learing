@@ -52,6 +52,10 @@ tags:: #Git
 		  
 		  # 更新远程仓库的分支（会删除远程仓库已删除的分支）
 		  git fetch --prune
+		  
+		  # 将远程分支合并到本地分支
+		  git fetch
+		  git merge origin/xxxxx
 		  ```
 	- ## 提交相关
 		- ```sh

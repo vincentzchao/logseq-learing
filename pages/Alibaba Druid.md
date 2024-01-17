@@ -4,6 +4,8 @@ tags:: [[Database Connection Pooling]]
 - ## 官方资料
 	- [Github Repo](https://github.com/alibaba/druid)
 	- [Wiki](https://github.com/alibaba/druid/wiki/%E9%A6%96%E9%A1%B5)
+- ## 第三方资料
+	- [druid连接池/sql监控/sql防火墙配置与原理](https://www.bilibili.com/video/BV1ih411n7Ps/?vd_source=f1fbb083ddef12dcff3388779faac201)
 - ## 学习路线
 	- 了解 Druid，并从次页面进入相关特性页面学习: [Druid连接池介绍](https://github.com/alibaba/druid/wiki/Druid%E8%BF%9E%E6%8E%A5%E6%B1%A0%E4%BB%8B%E7%BB%8D)
 	  logseq.order-list-type:: number
