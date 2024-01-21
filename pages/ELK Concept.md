@@ -7,7 +7,7 @@ tags:: [[ELK]]
 	- 参考: [ELK Home Page](https://www.elastic.co/guide/index.html#viewall)
 	- ELK 中的组件
 	  id:: 64fc0db3-37a2-4ede-b2c8-c74f797126f0
-	- ![image.png](../assets/image_1694240174281_0.png)
+	- ![image.png](../assets/image_1694240174281_0.png){:height 560, :width 1219}
 	- ### Ingest 提取
 		- #### Fleet and Elastic Agent
 			- **Elastic Agent** 从各种数据源收集数据，同时提供安全保护。

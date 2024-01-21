@@ -7,9 +7,11 @@ alias:: [[JS]]
 - ## 学习路线
 	- 基础概念: [[JavaScript/Concept]]
 	  logseq.order-list-type:: number
+	- [[浏览器是如何渲染一个页面的]]
+	  logseq.order-list-type:: number
 	- logseq.order-list-type:: number
 - ## 当前进度
-	- [What_is_JavaScript](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/What_is_JavaScript#how_do_you_add_javascript_to_your_page)
+	- 下一步学习 [A first splash into JavaScript](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/A_first_splash)
 	-
 -
 -
