@@ -6,6 +6,7 @@ tags:: [[ELK]]
 - ## 架构
 	- 参考: [ELK Home Page](https://www.elastic.co/guide/index.html#viewall)
 	- ELK 中的组件
+	  id:: 64fc0db3-37a2-4ede-b2c8-c74f797126f0
 	- ![image.png](../assets/image_1694240174281_0.png)
 	- ### Ingest 提取
 		- #### Fleet and Elastic Agent
@@ -27,4 +28,4 @@ tags:: [[ELK]]
 			- **Kibana** 用于 **分析** 和 **可视化** **Elasticsearch** 中的数据。
 		- #### Elasticsearch clients
 			- 各种语言管理 Elasticsearch 请求和响应的工具。
--
+	-
