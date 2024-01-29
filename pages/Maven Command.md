@@ -8,3 +8,8 @@
 		- ``` sh
 		  mvn clean deploy -pl "!module1,!module2"
 		  ```
+- ## 源码
+	- ``` sh
+	  # 下载依赖的源码
+	  mvn dependency:resolve -Dclassifier=sources
+	  ```
