@@ -1,5 +1,5 @@
 alias:: [[AdoptOpenJDK]]
-tags:: [[Java]]
+tags:: [[Java]], [[JDK]]
 ---
 
 -
