@@ -9,6 +9,7 @@ tags:: #Unix
 		- [[getconf command]]
 	- 查看进程信息
 		- [[ps command]]
-		-
+	- 环境变量相关
+		- [[export command]]
 	-
 -
