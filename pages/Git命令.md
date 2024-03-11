@@ -61,6 +61,9 @@ tags:: #Git
 		- ```sh
 		  # 修改本地上一次提交的信息（该commit必须还未push到远程仓库）
 		  git commit --amend -m "New commit message."
+		  
+		  # 将当前暂存区的文件修改，合并到上一次提交（该commit必须还未push到远程仓库）
+		  git commit --amend
 		  ```
 	- ## Config
 		- ```sh
