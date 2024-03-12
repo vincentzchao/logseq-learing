@@ -13,6 +13,9 @@ tags:: #[[部署运维]]
 - ## 学习路线
 	- Docker 基本概念: [[Docker Concept]]
 	  logseq.order-list-type:: number
+	- 安装: [[Docker 安装]]
+	  logseq.order-list-type:: number
+	- logseq.order-list-type:: number
 	- logseq.order-list-type:: number
 - ## 当前进度
 	- 2023-12-27 学习完 [Getting started guide](https://docs.docker.com/get-started/)
