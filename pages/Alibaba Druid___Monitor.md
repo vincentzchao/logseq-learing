@@ -1,5 +1,4 @@
--
-- ## 启用 Druid 监控页面
+## 启用 Druid 监控页面
 	- 代码创建一个 `ServletRegistrationBean<StatViewServlet>` Bean .
 	  logseq.order-list-type:: number
 		- ``` java
