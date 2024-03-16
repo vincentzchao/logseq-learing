@@ -1,7 +1,7 @@
 alias:: [[Apache Maven]]
 tags:: [[Build Tool]], [[Package Manager]]
+---
 
-- ---
 - ==子目录==
 	- [[Maven POM]]
 	- [[Maven Settings]]

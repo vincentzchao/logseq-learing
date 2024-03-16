@@ -1,10 +1,7 @@
-alias:: POM,
+alias:: [[POM]]
+tags:: [[Maven]]
+---
 
-- tags:: Maven
-- ---
--
--
-- ---
 - ## 官方资料
 	- [Maven POM 参考手册](https://maven.apache.org/pom.html)
 - ---
@@ -22,6 +19,41 @@ alias:: POM,
 	- > The usage of '`final`', '`ga`', and '`release`' qualifiers is discouraged. Use no qualifier instead.
 	- 表示使用当前依赖的最新的发行版本
 	- Maven 已不推荐使用。
--
--
--
+- ## `<repositories>`
+	- 指定项目拉取依赖的仓库。
+	- `<id>` 需与 `settings.xml` 文件中的 `<servers>` 中 `<server>` 的 `<id>` 一致。
+	- ``` xml
+	  <repositories>
+	    <repository>
+	      <id>nexus</id>
+	      <name>Nexus Repository</name>
+	      <url>http://example.com/repository/maven-public/</url>
+	      <releases>
+	        <enabled>true</enabled>
+	        <updatePolicy>always</updatePolicy>
+	        <checksumPolicy>warn</checksumPolicy>
+	      </releases>
+	      <snapshots>
+	        <enabled>true</enabled>
+	        <updatePolicy>always</updatePolicy>
+	        <checksumPolicy>warn</checksumPolicy>
+	      </snapshots>
+	    </repository>
+	  </repositories>
+	  ```
+- ## `<distributionManagement>`
+	- 指定项目上传依赖的仓库。
+	- `<id>` 需与 `settings.xml` 文件中的 `<servers>` 中 `<server>` 的 `<id>` 一致。
+	- ``` xml
+	  <distributionManagement>
+	    <repository>
+	      <id>maven-releases</id>
+	      <url>http://example.com/repository/maven-releases/</url>
+	    </repository>
+	    <snapshotRepository>
+	      <id>maven-snapshots</id>
+	      <url>http://example.com/repository/maven-snapshots/</url>
+	    </snapshotRepository>
+	  </distributionManagement>
+	  ```
+	-
