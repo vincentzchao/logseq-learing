@@ -9,7 +9,9 @@ tags:: [[MySQL]]
 		- 下拉菜单选择自己想要下载的版本，图中标识部分是旧版本的下载链接。
 		- ![image-20220302014436875.png](../assets/image-20220302014436875_1710466252665_0.png)
 	- ### 选择系统对应的版本
-		- 在 Linux 系统中执行 `uname -r` 可以得到类似 `5.10.60-9.al8.x86_64` 的系统信息，所以这里我们选择 `Linux - Generic (glibc 2.12) (x86, 64-bit), Compressed TAR Archive` 。
+		- 在 Linux 系统中执行 `uname -r` 可以得到类似 `5.10.60-9.al8.x86_64` 的系统信息。
+		- 执行 `ldd --version` 可以得到类似 `ldd (GNU libc) 2.17` 的 glibc 版本信息。
+		- 所以这里我们选择 `Linux - Generic (glibc 2.17) (x86, 64-bit), Compressed TAR Archive` 。
 		- ![image-20220302014633397.png](../assets/image-20220302014633397_1710466770976_0.png)
 - ## 使用 wget 命令下载 MySQL
 	- ```sh
@@ -46,7 +48,7 @@ tags:: [[MySQL]]
 		  ```
 	- ### 解压
 		- 将安装文件上传至 `/usr/local/` 目录下；
-		- 执行 `tar xzvf mysql-5.7.37-linux-glibc2.12-x86_64.tar.gz` 命令，解压；
+		- 执行 `tar -xzvf mysql-5.7.37-linux-glibc2.12-x86_64.tar.gz` 命令，解压；
 		- 执行 `mv mysql-5.7.37-linux-glibc2.12-x86_64 /usr/local/mysql` 命令，对文件重命名为 `mysql` 。
 	- ### 创建data目录
 		- ```sh
