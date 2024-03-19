@@ -4,11 +4,13 @@ alias:: [[RPM Package Manager]]
 
 - ## 官方资料
 	- [RPM 官网](https://rpm.org/index.html)
+	- [RedHat -RPM Packaging Guide](https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/7/html/rpm_packaging_guide/index)
+	- [RPM Packaging Guide](https://rpm-packaging-guide.github.io/)
 - ## 学习路线
 	- 什么 RPM，其原理是啥: [[RPM Concept]]
 	  logseq.order-list-type:: number
 - ## 学习进度
--
+	-
 - ## 命令速查
 	- ### 查看安装文件位置
 		- ``` sh
