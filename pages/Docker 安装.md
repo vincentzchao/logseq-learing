@@ -20,7 +20,7 @@ tags:: [[Docker]]
 		  # 安装 yum-utils ，yum-utils 提供了 yum-config-manager
 		  sudo yum install -y yum-utils
 		  # 使用 yum-config-manager 配置 docker 所在仓库
-		  sudo yum-config-manager --add-repo https://download.docker.com/linux/centos/docker-ce.repo
+		  sudo yum-config-manager --add-repo https://download.docker.com/linux/c【】entos/docker-ce.repo
 		  
 		  # 下载 docker 相关组件
 		  sudo yum install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
