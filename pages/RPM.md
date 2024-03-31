@@ -7,18 +7,16 @@ alias:: [[RPM Package Manager]]
 	- [RedHat -RPM Packaging Guide](https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/7/html/rpm_packaging_guide/index)
 	- [RPM Packaging Guide](https://rpm-packaging-guide.github.io/)
 - ## 学习路线
-	- 什么 RPM，其原理是啥: [[RPM Concept]]
+	- 什么 RPM，其原理是啥: [[RPM/Concept]]
+	  logseq.order-list-type:: number
+	- RPM 命令有哪些: [[RPM/Command 基础]]
+	  logseq.order-list-type:: number
+	- YUM 与 RPM 的区别: [[YUM 和 RPM 包管理器的区别]]
 	  logseq.order-list-type:: number
 - ## 学习进度
-	-
-- ## 命令速查
-	- ### 查看安装文件位置
-		- ``` sh
-		  # 查找已安装应用的rpm文件名称
-		  rpm -q 软件名称
-		  # 查找rpm文件安装时产生的文件路径
-		  rpm -ql rpm文件名称/软件名称
-		  # 查找指定rpm包的文档 
-		  rpm -qd rpm文件名称/软件名称
-		  ```
--
+	- 已学习完 [rpm_tutorial_20120831.pdf](https://access.redhat.com/sites/default/files/attachments/rpm_tutorial_20120831.pdf)
+- ## 疑问
+	- RPM 包名中的 epoch 是啥？
+	  logseq.order-list-type:: number
+	- RPM databse 是怎样的？
+	  logseq.order-list-type:: number
