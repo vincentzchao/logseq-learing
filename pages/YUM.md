@@ -21,3 +21,4 @@ alias:: [[Yellowdog Updater Modified]]
 	- [[YUM/yumdownloader]]
 	  logseq.order-list-type:: number
 	- logseq.order-list-type:: number
+-
