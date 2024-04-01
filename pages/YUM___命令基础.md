@@ -7,6 +7,9 @@
 		  # 查看包的信息
 		  yum info 包名
 		  
+		  # 查看 glob 表达式所表示的包
+		  yum list [glob expr]
+		  
 		  # 查看所有可安装的包
 		  yum list available
 		  # 查看所有已安装的包

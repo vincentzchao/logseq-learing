@@ -11,6 +11,8 @@ alias:: [[Yellowdog Updater Modified]]
 	  logseq.order-list-type:: number
 	- YUM 与 RPM 的区别: [[YUM 和 RPM 包管理器的区别]]
 	  logseq.order-list-type:: number
+	- YUM 的配置: [[YUM/Configure]]
+	  logseq.order-list-type:: number
 - ## 学习进度
 	- 学习到 yum clean 命令，查看 man page 中的 clean options
 - ## 疑问
@@ -20,5 +22,6 @@ alias:: [[Yellowdog Updater Modified]]
 	  logseq.order-list-type:: number
 	- [[YUM/yumdownloader]]
 	  logseq.order-list-type:: number
+	- [[YUM/Configure]]
+	  logseq.order-list-type:: number
 	- logseq.order-list-type:: number
--
