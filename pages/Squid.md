@@ -8,6 +8,25 @@ tags:: [[Network Proxy]]
 	- ### 使用
 		- 安装后会生成如下两个图标:
 		- ![image.png](../assets/image_1712030497812_0.png)
-		- Squid Termail 用于执行命令 (最好 **以管理员身份运行** )。
-		- Squid Server Tray 是启动代理服务器。
-	-
+		- Squid Terminal 用于执行命令 (最好 **以管理员身份运行** )。
+		- Squid Server Tray 用于启动代理服务器。
+	- ### 配置
+- ## 配置
+	- ### 隐藏客户端 IP
+		- 参考: [Squid 配置高匿代理](https://xnathan.com/2017/03/01/squid-anony-proxy/)
+		- squid.conf 中加入如下配置：
+			- ``` conf
+			  # 隐藏客户端 IP
+			  request_header_access Via deny all
+			  request_header_access X-Forwarded-For deny all
+			  request_header_access From deny all
+			  ```
+	- ### 添加代理的端口
+		- 如: `acl Safe_ports port 80`
+	- ### 添加 HTTPS 安全端口
+		- 默认配置中有: `acl SSL_ports port 443`
+		- 如果 HTTPS 用的是其他端口，需要按上述格式添加。
+- ## Squid Terminal
+	- ### 重新加载配置
+		- `squid -k reconfigure`
+		- 注意: Windows 重启 Squid Server Tray 不一定能让配置生效，需要以管理员身份打开 Squid Terminal ，执行上述命令。
