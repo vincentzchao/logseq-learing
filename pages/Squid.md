@@ -21,6 +21,20 @@ tags:: [[Network Proxy]]
 			  request_header_access X-Forwarded-For deny all
 			  request_header_access From deny all
 			  ```
+		- 可访问 [httpbin.org/ip](http://httpbin.org/ip) 验证：
+			- 如果是得到类似如下的结果，则表示未生效：
+				- 192.168.1.10 表示客户端的 ip ，112.11.11.111 表示 squid 所在服务器的 ip 。
+				- ``` json
+				  {
+				    "origin": "192.168.1.10, 112.11.11.111"
+				  }
+				  ```
+			- 如果是得到类似如下的结果，则表示已生效：
+				- ``` json
+				  {
+				    "origin": "112.11.11.111"
+				  }
+				  ```
 	- ### 添加代理的端口
 		- 如: `acl Safe_ports port 80`
 	- ### 添加 HTTPS 安全端口
