@@ -1,8 +1,4 @@
-## TD
-	- RPM 的镜像是怎么回事？
-	  logseq.order-list-type:: number
-	- logseq.order-list-type:: number
-- ## 概念
+## 概念
 	- 原全称为 `Red Hat Package Manager` , 后来由于一些非 Red Hat 的 Linux 发行版本也在使用, 则把全称改为 `RPM Package Manager` (递归命名方式) 。
 	- 当使用 RPM 命令安装一个软件包时，你必须提供 `.rpm` 软件包的确切位置 。
 - ## RPM 包名

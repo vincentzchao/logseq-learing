@@ -21,7 +21,7 @@
 		  # 列出可更新的包
 		  yum check-update
 		  ```
-	- ## 清除各种缓存
+	- ### 清除各种缓存
 		- `yum clean {clean options}` 清除各种东西的缓存目录中的缓存
 		- man page 搜索 clean options
 		- ``` sh

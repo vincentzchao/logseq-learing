@@ -20,3 +20,4 @@ alias:: [[RPM Package Manager]]
 	  logseq.order-list-type:: number
 	- RPM databse 是怎样的？
 	  logseq.order-list-type:: number
+-

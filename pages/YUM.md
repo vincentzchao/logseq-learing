@@ -16,7 +16,7 @@ alias:: [[Yellowdog Updater Modified]]
 - ## 学习进度
 	- 学习到 yum clean 命令，查看 man page 中的 clean options
 - ## 疑问
-	- repo 配置文件在哪？
+	- repo 配置文件在哪？如何找到各个软件的 yum 仓库？
 	  logseq.order-list-type:: number
 	- [[YUM/yum-config-manager]]
 	  logseq.order-list-type:: number
@@ -25,3 +25,4 @@ alias:: [[Yellowdog Updater Modified]]
 	- [[YUM/Configure]]
 	  logseq.order-list-type:: number
 	- logseq.order-list-type:: number
+-
