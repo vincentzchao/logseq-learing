@@ -1,4 +1,4 @@
-tags:: [[JDK]]
+tags:: [[Java]]
 ---
 
 - ## JDK 产品
@@ -10,7 +10,6 @@ tags:: [[JDK]]
 	- [[OpenJDK]]: ((64b0478b-19e5-44e2-a920-5f1903492e00))
 	- [[AdoptOpenJDK]]: ((64b0a03c-4c2b-480b-9c6e-feef4022f315))
 	- [[Temurin]]: ((64b0a72d-0290-46e2-9f16-ef3aec627ae5))
-	-
 - ## Oracle JDK 安装
 	- ### Linux 安装
 		- #### tar.gz 包的安装
@@ -27,3 +26,5 @@ tags:: [[JDK]]
 			- 执行 `java -verison` 查看 java 版本.
 			  logseq.order-list-type:: number
 		-
+-
+-

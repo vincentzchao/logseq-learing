@@ -34,7 +34,7 @@ tags:: [[Java]]
 				- [Oracle - Java Card 主页](https://www.oracle.com/java/java-card/)
 				- 基于 JDK , 需要下载额外的包才能使用。
 	- ==**注意: Java  ME 与 Java Embedded 无需关注, 因为它们现在并不流行；只需要关注 Java SE 和 Java EE 即可。**==
-- ## Java 的规范
+- ## JCP
 	- ### 什么是 JCP
 		- **JCP, 即 Java Community Process, 是国际 Java 社区的一个组织**, 它的目标是执行 JCP Program (JCP 计划)。
 		- [JCP 成员](https://jcp.org/en/participation/members) , 可以看到 阿里巴巴 在列：
@@ -46,10 +46,13 @@ tags:: [[Java]]
 		  -- 引自 [Introduction Overview](https://jcp.org/en/introduction/overview)
 		- **JCP Program 是 JCP 组织发起的一个计划** , 旨在 **推进国际 Java 社区制定标准化的 Java 技术规范** 。
 		- ==即便不是 JCP 的成员, 也可以参与到这个计划中。==
-	- ### 什么是 JCP Procedure
-		- **JCP Procedure 是制定 Java 技术规范的标准化流程**, 参见 [JCP 流程文档](https://jcp.org/en/procedures/jcp2_11) 。
 	- ### 什么是 JSR
 		- ((66175a7e-d37c-47a9-832b-2169fb161298))
+	- ### 什么是 JCP Procedure
+		- **JCP Procedure 是制定 Java 技术规范的标准化流程**, 参见 [JCP 流程文档](https://jcp.org/en/procedures/jcp2_11) 。
+		- JCP 流程本身也是由 JSR 来确定。
+- ## OpenJDK
+	- [[JDK]]
 	- ### 什么是 JEP
 		-
 -
