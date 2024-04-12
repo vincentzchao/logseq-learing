@@ -53,4 +53,8 @@
 	                     will list all available packages that match 'foo*'. (The  single  quotes  will  keep  your
 	                shell from expanding the globs.)
 	  ```
-	-
+	- epoch 参见 [RPM Packaging Guide - Epoch, Scriptlets, and Triggers](https://rpm-packaging-guide.github.io/#epoch-scriptlets-and-triggers)
+	- 在 RPM 打包时，可以指定 epoch ，不指定则默认为 0 。
+	- epoch 其实是用来做版本比较的，但是非必要不使用它；只有在不使用 epoch 无法做版本更新时，才最后采用这个手段。
+		- 比如: 先有个 `1:1.0` 版本，后来有人不知道有 epoch 这回事，给了个 `2.0` 版本；这个版本是没办法更新的，因为前者的 epoch 大于后者 (默认值为 0)。
+		-
