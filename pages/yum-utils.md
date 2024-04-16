@@ -18,4 +18,4 @@ alias:: [[YUM Utils]]
 	  # 查询 nginx 包所在的地址
 	  yumdownloader --urls nginx
 	  ```
-	-
+- ## yum-utils 之 yumdownloader

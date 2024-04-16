@@ -15,6 +15,12 @@ tags:: [[Program Language]]
 	  logseq.order-list-type:: number
 	- 各大 jdk 关系？
 	  logseq.order-list-type:: number
+	- 都有哪些 JVM？
+	  logseq.order-list-type:: number
+	- JDK 9 模块化
+	  logseq.order-list-type:: number
+	- 字节码解释器与 JIT
+	  logseq.order-list-type:: number
 -
 - ---
 - ## 官方资料
