@@ -1,7 +1,6 @@
 tags:: [[Glossary]]
 ---
 
--
 - ## 复合词
 	- ### on-prem / on-premise / on-premises
 		- 相对于云服务，意为部署于自己私有环境中的软件。
@@ -42,6 +41,15 @@ tags:: [[Glossary]]
 			  </html>
 			  ```
 		- 参考: [Boilerplate code](https://en.wikipedia.org/wiki/Boilerplate_code)
+	- ### foo
+		- 参考: [Foobar](https://en.wikipedia.org/wiki/Foobar)
+		- foobar (/ˈfuːbɑːr/), foo, bar, baz 等词没有实际内涵，类似于中文中的张三李四，用于随意地表示不重要的变量名、函数名等。
+		- 一说源自二战时期的军队俚语 FUBAR（ *Fucked Up Beyond All Repair*  *一团糟，无法修复* ）。
+		- 一说源自中文 “福” 字（一本漫画书的作者在唐人街看到这个字，用它的音译作为一个无意义的词）。
+	- ### uber-jar
+		- 参考: [什么是 maven的uber-jar](https://www.cnblogs.com/hzhuxin/p/7044334.html)
+		- 在很多编程语言中会把 `super` 写为 `uber` （因为 `super` 可能是关键字）， 这是上世纪80年代开始流行的，比如管 superman 叫 uberman 。
+		- 所以 `uber-jar` 从字面上理解就是 `super-jar` ，这样的 jar 不但包含自己代码中的 class ，也会包含一些 第三方依赖的 jar ，也就是把自身的代码和其依赖的 jar 全打包在一个 jar 里面了，所以就很形象的称其为 super-jar 。
 - ## 形容词
 	- | 英文             | 中文         | 解释                  |
 	  | ---------------- | ------------ | --------------------- |

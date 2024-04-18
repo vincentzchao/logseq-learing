@@ -8,13 +8,16 @@ tags:: [[Build Tool]], [[Package Manager]]
 	- [[Maven Archetype]]
 	- [[Maven Command]]
 	-
-	-
-	-
 - ---
 - ## 官方资料
 	- ### [官网](https://maven.apache.org/index.html)
 		- [文档目录](https://maven.apache.org/guides/index.html)
 		- [Central Repository Directory](https://repo.maven.apache.org/maven2/)
+- ## 问题点
+	- mvn spring-boot:run 为啥可以执行? ((6620bd09-1085-4f98-8ffd-4011f497fe85))
+	  logseq.order-list-type:: number
+	- logseq.order-list-type:: number
+- ---
 - ## Maven 安装
 	- ### Linux tar.gz 文件安装
 		- 下载 tar.gz 文件: [Maven Download](https://maven.apache.org/download.cgi)

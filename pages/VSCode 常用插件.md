@@ -5,17 +5,8 @@ tags:: [[VSCode 插件]]
 	- > 用浏览器打开文件
 	- `alt + b` 用默认浏览器打开
 - ## 格式化工具
-	- ### Prettier
-		- > 代码格式化
-		- 添加如下配置：
-			- ```json
-			  {
-			    // 设置默认格式化工具
-			    "editor.defaultFormatter": "esbenp.prettier-vscode",
-			    // 设置保存时自动格式化
-			    "editor.formatOnSave": true
-			  }
-			  ```
 	- ### Beatify
 		- 参见: ((644dd87f-048e-4eaa-aa96-ce94090521f6))
--
+	- ### XML Tools
+		- [VSCode 插件市场 - XML Tools](https://marketplace.visualstudio.com/items?itemName=DotJoshJohnson.xml)
+		-

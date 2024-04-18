@@ -13,6 +13,57 @@
 	- > Spring Boot makes it easy to create stand-alone, production-grade Spring based Applications that you can "just run".
 	  -- 引自 [Spring Boot Overview](https://spring.io/projects/spring-boot#overview)
 	- Spring Boot 使创建 spring-based 应用更加容易。
+- ## 如何使用 Spring Boot
+  id:: 6620bd09-1085-4f98-8ffd-4011f497fe85
+	- POM 中声明父依赖为 `spring-boot-starter-parent` 。
+	  logseq.order-list-type:: number
+		- ``` xml
+		  <parent>
+		      <groupId>org.springframework.boot</groupId>
+		      <artifactId>spring-boot-starter-parent</artifactId>
+		      <version>2.3.4.RELEASE</version>
+		  </parent>
+		  ```
+		- `spring-boot-starter-parent` 的父依赖是 `spring-boot-dependencies` 。
+		- `spring-boot-dependencies` 做了 Dependency Management
+	- POM 中引入需要用到的 `spring-boot-starter-xxx` 。
+	  logseq.order-list-type:: number
+		- 比如开发 Web 应用时，引入 `spring-boot-starter-web` 。
+		- ``` xml
+		  <dependencies>
+		      <dependency>
+		          <groupId>org.springframework.boot</groupId>
+		          <artifactId>spring-boot-starter-web</artifactId>
+		      </dependency>
+		  </dependencies>
+		  ```
+	- 编写启动类。
+	  logseq.order-list-type:: number
+		- ``` java
+		  import org.springframework.boot.*;
+		  import org.springframework.boot.autoconfigure.*;
+		  import org.springframework.web.bind.annotation.*;
+		  
+		  @RestController
+		  @EnableAutoConfiguration
+		  public class Example {
+		  
+		      @RequestMapping("/")
+		      String home() {
+		          return "Hello World!";
+		      }
+		  
+		      public static void main(String[] args) {
+		          SpringApplication.run(Example.class, args);
+		      }
+		  
+		  }
+		  ```
+		- `@EnableAutoConfiguration` 告诉 Spring Boot 根据引入的依赖做自动配置。
+		- `SpringApplication.run(Example.class, args);` 方法用于启动 Spring 和 自动配置的 `Tomcat` , `args` 为命令行参数。
+	- 执行 `mvn spring-boot:run` 可启动程序，访问 `http://localhost:8080` 测试。
+	  logseq.order-list-type:: number
+	- logseq.order-list-type:: number
 - ## 自动装配
 	-
 - ## 几个很少用的东西
