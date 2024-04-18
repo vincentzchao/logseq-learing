@@ -28,6 +28,20 @@ tags:: [[Glossary]]
 		- 即 普通消费者可以随时买到的、支付得起的、通用的硬件。
 		- 与之相对的是 **定制硬件** 。
 		- 参考: [What is Commodity Hardware?](https://www.techslang.com/definition/what-is-commodity-hardware/)
+	- ### Boilerplate Code
+	  id:: 6620925c-0281-4b08-aeec-d8c8960b590d
+		- 样板代码，与主要功能无关，但又必须有的代码
+		- 如 HTML 中的：
+			- ``` html
+			  <!DOCTYPE html>   
+			  <html>   
+			     <head>   
+			        <title></title>   
+			     </head>   
+			     <body> </body>   
+			  </html>
+			  ```
+		- 参考: [Boilerplate code](https://en.wikipedia.org/wiki/Boilerplate_code)
 - ## 形容词
 	- | 英文             | 中文         | 解释                  |
 	  | ---------------- | ------------ | --------------------- |

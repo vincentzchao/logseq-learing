@@ -1,4 +1,4 @@
-tags:: [[Java]]
+tags:: [[Java]], [[SDK]] 
 ---
 
 - ## JDK 产品
@@ -26,4 +26,3 @@ tags:: [[Java]]
 			- 执行 `java -verison` 查看 java 版本.
 			  logseq.order-list-type:: number
 		-
--
