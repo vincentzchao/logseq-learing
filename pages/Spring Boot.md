@@ -25,18 +25,18 @@ tags:: [[Java]], [[Framework]], [[Spring]]
 			  logseq.order-list-type:: number
 			- [Getting Started](https://docs.spring.io/spring-boot/docs/2.3.4.RELEASE/reference/html/getting-started.html#getting-started)
 			  logseq.order-list-type:: number
+				- 学到了
+				  logseq.order-list-type:: number
 			- [Using Spring Boot](https://docs.spring.io/spring-boot/docs/2.3.4.RELEASE/reference/html/using-spring-boot.html#using-boot)
 			  logseq.order-list-type:: number
-			- [Spring Boot Features](https://docs.spring.io/spring-boot/docs/2.3.4.RELEASE/reference/html/spring-boot-features.html#boot-features)
+			- appendices
 			  logseq.order-list-type:: number
-			- logseq.order-list-type:: number
-			  | [Spring Boot Actuator](https://docs.spring.io/spring-boot/docs/2.3.4.RELEASE/reference/html/production-ready-features.html#production-ready) | Monitoring, Metrics, Auditing, and more. |
-			  | [Deploying Spring Boot Applications](https://docs.spring.io/spring-boot/docs/2.3.4.RELEASE/reference/html/deployment.html#deployment) | Deploying to the Cloud, Installing as a Unix application. |
-			  | [Spring Boot CLI](https://docs.spring.io/spring-boot/docs/2.3.4.RELEASE/reference/html/spring-boot-cli.html#cli) | Installing the CLI, Using the CLI, Configuring the CLI, and more. |
-			  | [Build Tool Plugins](https://docs.spring.io/spring-boot/docs/2.3.4.RELEASE/reference/html/build-tool-plugins.html#build-tool-plugins) | Maven Plugin, Gradle Plugin, Antlib, and more. |
-			  | [“How-to” Guides](https://docs.spring.io/spring-boot/docs/2.3.4.RELEASE/reference/html/howto.html#howto) | Application Development, Configuration, Embedded Servers, Data Access, and many more. |
-			-
-			- logseq.order-list-type:: number
+				- [Executable Jars](https://docs.spring.io/spring-boot/docs/2.3.4.RELEASE/reference/html/appendix-executable-jar-format.html#executable-jar) ，笔记可以记到这里: ((662108ab-1116-4b67-878b-9f02cd547f1c))
+				  logseq.order-list-type:: number
+		- [【尚硅谷】SpringBoot2零基础入门教程（spring boot2干货满满）](https://www.bilibili.com/video/BV19K4y1L7MT/?p=5&vd_source=f1fbb083ddef12dcff3388779faac201)
+		  logseq.order-list-type:: number
+			- 学完了第 4 课。
+			  logseq.order-list-type:: number
 		-
 	-
 - ---

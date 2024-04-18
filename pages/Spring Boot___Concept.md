@@ -5,10 +5,13 @@
 		  logseq.order-list-type:: number
 		- 了解一些通用问题的解决方案: [How-to documents](https://docs.spring.io/spring-boot/docs/2.3.4.RELEASE/reference/html/howto.html#howto).
 		  logseq.order-list-type:: number
-	- ### 了解 Spring Boot 各版本发布信息
-		- [the project release notes section](https://github.com/spring-projects/spring-boot/wiki#release-notes)
-	- ### 各版本支持情况
-		- [Spring Boot Support](https://spring.io/projects/spring-boot#support)
+	- ### 学习 maven-plugin 和 actuator-api
+		- [Spring Boot Docs](https://docs.spring.io/spring-boot/docs/) > [Spring Boot Docs - 2.3.4.RELEASE ](https://docs.spring.io/spring-boot/docs/2.3.4.RELEASE/)
+		- ![image.png](../assets/image_1713450151525_0.png)
+		- ### 了解 Spring Boot 各版本发布信息
+			- [the project release notes section](https://github.com/spring-projects/spring-boot/wiki#release-notes)
+		- ### 各版本支持情况
+			- [Spring Boot Support](https://spring.io/projects/spring-boot#support)
 - ## Spring Boot 的定位
 	- > Spring Boot makes it easy to create stand-alone, production-grade Spring based Applications that you can "just run".
 	  -- 引自 [Spring Boot Overview](https://spring.io/projects/spring-boot#overview)
@@ -63,7 +66,25 @@
 		- `SpringApplication.run(Example.class, args);` 方法用于启动 Spring 和 自动配置的 `Tomcat` , `args` 为命令行参数。
 	- 执行 `mvn spring-boot:run` 可启动程序，访问 `http://localhost:8080` 测试。
 	  logseq.order-list-type:: number
-	- logseq.order-list-type:: number
+- ## Executable jar
+  id:: 662108ab-1116-4b67-878b-9f02cd547f1c
+	- 参考:
+		- [4.5. Creating an Executable Jar](https://docs.spring.io/spring-boot/docs/2.3.4.RELEASE/reference/html/getting-started.html#getting-started-first-application-executable-jar)
+		  logseq.order-list-type:: number
+		- [The Executable Jar Format](https://docs.spring.io/spring-boot/docs/2.3.4.RELEASE/reference/html/appendix-executable-jar-format.html#executable-jar)
+		  logseq.order-list-type:: number
+	- 我们最终想要得到一个 `completely self-contained executable jar file` , 即 包含**我们编写的代码的 class 和 所有 jar 依赖**的 可执行 jar 文件，这样可以方便部署；有时也被称为 `fat jars` 。
+	- 首先想到的思路是: **将所有依赖的 jar 文件嵌入到最终的 jar 文件中** 。
+	  logseq.order-list-type:: number
+		- 但是有个问题是, java 并没有一个标准的方法去加载这种 **内嵌 jar 文件的 jar 文件** 。
+	- 所以又想到另一个办法: **将所有的 class 打进一个 jar 文件中 (这被称为 `uber jars` )** 。
+	  logseq.order-list-type:: number
+		- 但这又面临两个问题:
+			- 无法区分不同依赖的类。
+			  logseq.order-list-type:: number
+			- 如果不同依赖存在同名的类，将会有冲突。
+			  logseq.order-list-type:: number
+	- 所以 Spring Boot 采用了别的方式，来解决这个问题: [The Executable Jar Format](https://docs.spring.io/spring-boot/docs/2.3.4.RELEASE/reference/html/appendix-executable-jar-format.html#executable-jar)
 - ## 自动装配
 	-
 - ## 几个很少用的东西

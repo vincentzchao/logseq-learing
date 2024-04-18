@@ -23,6 +23,8 @@ tags:: [[Program Language]]
 	  logseq.order-list-type:: number
 	- 什么是 classpath
 	  logseq.order-list-type:: number
+	- jar 格式与 maven 打包方式。
+	  logseq.order-list-type:: number
 -
 - ---
 - ## 官方资料
